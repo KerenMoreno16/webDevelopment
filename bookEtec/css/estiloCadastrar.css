@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: brown;
+    font-family:'Segoe UI';
+    margin-top: 50px;
+    margin-bottom: 5px;
+    text-align: center; 
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+ .container-fluid{
+    align-items: center;                
+     justify-content: center;
+    max-width: 470px;
+} 
+
+.col-md-4 {
+    max-width: 470px;
+    text-align: center;
+    font-size: 18px; 
+    width: 100%;  
+}
+
+.form-control{
+    border: 1px solid brown !important;
+    border-radius: 30px;
+    background-color: rgba(143, 32, 32, 0.541);
+    padding: 10px;
+    color: white;
+}
+
+.form-control:focus{
+    background-color: rgba(143, 32, 32, 0.541);
+    outline: 0;          /* tirar contorno azul dos campos ver nos outros códigos*/
+    box-shadow: 0 0 0 0;
+    color: white;
+}
+
+input::placeholder {
+    color: rgb(255, 255, 255) !important;
+    opacity: 1; 
+}
+
+input{
+    margin: 5px 0px 10px 0px;
+    border-radius: 30px;
+    border: 1px solid brown;
+    font-size: 16px;
+    outline: none;
+    background-color: brown;
+    width: 100%;
+    padding: 10px;
+    color: white;
+}
+
+.divBtn{
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+
+.btn2{
+    width: 100%;
+} 
+
+@media all and (min-width: 470px){
+    .form-login{
+        width: 470px;
+        margin: 0 auto;
+    } 
+    .btn2{
+        width: 235px;
+    } 
+}
